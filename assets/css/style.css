@@ -1,0 +1,55 @@
+#title {
+    margin-left: 300px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1000px;
+    font-weight: bolder;
+    color: red;
+    font: "Charlemagne";
+
+}
+
+body {
+    background-image: url("https://images6.alphacoders.com/805/805656.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 48px;
+}
+
+#blue {
+    color: blue;
+}
+
+#green {
+    color: green;
+}
+
+#red {
+    color: red;
+}
+
+#yellow {
+    color: yellow;
+}
+
+#one {
+    height: 100px;
+    width: 100px;
+}
+
+#two {
+    height: 100px;
+    width: 100px;
+}
+
+#three {
+    height: 100px;
+    width: 100px;
+}
+
+#four {
+    height: 100px;
+    width: 100px;
+}
