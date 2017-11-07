@@ -5,63 +5,95 @@
     <meta charset="UTF-8">
     <title>Crystal Collector</title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style1.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans|Ubuntu" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
 
 </head>
 
 <body>
+
+
     <div class="header">
 
         <img src="assets/images/ZeldaLogo.png" class=gemImage id="title" alt="The Legend of Zelda">
-        <h1>Rupee Collector</h1>
+
     </div>
-    <div class="instructions">
-        <h3>Here's how you play the game</h3>
-        </br>
-        <ol>
-            <li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
-            <li>There are four rupees below.</li>
-            <ul>
-                <li id="blue">Blue</li>
-                <li id="green">Green</li>
-                <li id="red">Red</li>
-                <li id="yellow">Yellow</li>
-            </ul>
-            <li>By clicking on a rupee, you will add a specific amount of points to your total score.</li>
-            <li>You win the game by matching your total score to the Number to Get.</li>
-            <li>You lose the game if your total score goes above the random number.</li>
-            <li>The value of each rupee will be hidden until it is clicked on.</li>
-            <li>Each time when the game starts, the game will change the values of each rupee.</li>
-        </ol>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+
+            <div class="col-md-8">
+
+                <h1>Rupee Collector</h1>
+            </div>
+            <div class="instructions">
+                <h3>Instructions</h3>
+                </br>
+                <ol>
+                    <li>You will be given a random number at the start of the game called "Number To Get"</li>
+                    <li>There are four rupees below.</li>
+                    <ul>
+                        <li id="blue">Blue</li>
+                        <li id="green">Green</li>
+                        <li id="red">Red</li>
+                        <li id="yellow">Yellow</li>
+                    </ul>
+                    <br>
+                    <li>By clicking on a rupee, you will add a specific amount of points to your total score.</li>
+                    <li>You win the game by matching your total score to the Number to Get.</li>
+                    <li>You lose the game if your total score goes above the random number.</li>
+                    <li>The value of each rupee will be hidden until it is clicked on.</li>
+                    <li>Each time when the game starts, the game will change the values of each rupee.</li>
+                </ol>
+            </div>
+            <br>
+            <div class="numberToMatch">
+                <h2>Number To Get:
+                    <span id="randomNumber"></span>
+                </h2>
+            </div>
+            <div class="winsAndLosses">
+                <h2>Wins:
+                    <span id="numberWins"></span>
+                    </br>
+                    Losses:
+                    <span id="numberLosses"></span>
+                </h2>
+            </div>
+
+            <div class="userTotal">
+                <h2>Total score:
+                    <span id="finalTotal"></span>
+                </h2>
+            </div>
+
+
+            <div class="gems">
+                <img src="assets/images/bluerupee.png" class=gemImage id="one" alt="Blue Rupee">
+                <img src="assets/images/GreenRupee.png" class=gemImage id="two" alt="Green Rupee">
+                <img src="assets/images/redrupee.png" class=gemImage id="three" alt="Red Rupee">
+                <img src="assets/images/YellowRupee.png" class=gemImage id="four" alt="Yellow Rupee">
+            </div>
+
+
+
+
+        </div>
+
+
+
+
     </div>
-    <div class="numberToMatch">
-        <h2>Number To Get:
-            <span id="randomNumber"></span>
-        </h2>
-    </div>
-    <div class="winsAndLosses">
-        <h2>Wins:
-            <span id="numberWins"></span>
-            </br>
-            Losses:
-            <span id="numberLosses"></span>
-        </h2>
-    </div>
-    <div class="gems">
-        <img src="assets/images/bluerupee.png" class=gemImage id="one" alt="Blue Rupee">
-        <img src="assets/images/GreenRupee.png" class=gemImage id="two" alt="Green Rupee">
-        <img src="assets/images/redrupee.png" class=gemImage id="three" alt="Red Rupee">
-        <img src="assets/images/YellowRupee.png" class=gemImage id="four" alt="Yellow Rupee">
-    </div>
-    <div class="userTotal">
-        <h2>Your total score is:
-            <span id="finalTotal"></span>
-        </h2>
-    </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
 </body>
 
 </html>

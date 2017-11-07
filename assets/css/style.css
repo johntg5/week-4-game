@@ -1,22 +1,27 @@
 #title {
-    margin-left: 300px;
+    margin-left: 400px;
+    height: 200px;
 }
 
 h1 {
     text-align: center;
-    font-size: 1000px;
     font-weight: bolder;
     color: red;
-    font: "Charlemagne";
-
+    font-size: 32px;
 }
 
 body {
-    background-image: url("https://images6.alphacoders.com/805/805656.jpg");
+    background-image: url("https://images4.alphacoders.com/793/79376.jpg");
     background-size: cover;
     color: white;
-    font-size: 48px;
 }
+
+
+.container {
+    opacity: .95;
+    font-size: 24px;
+}
+
 
 #blue {
     color: blue;
@@ -37,19 +42,32 @@ body {
 #one {
     height: 100px;
     width: 100px;
+    margin: 30px;
+    margin-left: 300px;
 }
 
 #two {
     height: 100px;
     width: 100px;
+    margin: 30px;
+
 }
 
 #three {
     height: 100px;
     width: 100px;
+    margin: 30px;
 }
 
 #four {
     height: 100px;
     width: 100px;
+    margin: 30px;
+
+}
+
+
+h2 {
+    color: red;
+
 }
